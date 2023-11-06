@@ -49,7 +49,17 @@ header nav div{
 }
 
 .navbar {
-    display: none;
+    display: flex;
+    flex-direction: wrap;
+    position: absolute;
+}
+
+.navbar li{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    font-size: 15px;
 }
 
 .responsive{
